@@ -1,0 +1,1 @@
+0 Distance of 0from0 is0Distance of 1from0 is2147483647Distance of 2from0 is2147483647Distance of 3from0 is2147483647Distance of 4from0 is2147483647Distance of 5from0 is2147483647
