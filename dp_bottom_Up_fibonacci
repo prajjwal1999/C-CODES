@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+
+ll fib(ll n)
+{
+   ll dp[100000]={0};
+   dp[0]=0;
+   dp[1]=1;
+   for(ll cur_no=2;cur_no<=n;cur_no++)
+   {
+   	dp[cur_no]= dp[cur_no-1]+dp[cur_no-2];
+   }
+   return dp[n];
+}
+int main()
+{
+	#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+	#endif
+ 
+  ll n;
+  cin>>n;
+   cout<<"THe nth fibonacci number is "<<fib(n);
+
+
+
+	return 0;
+  }
