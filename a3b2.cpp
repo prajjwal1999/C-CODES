@@ -19,4 +19,5 @@ int main() {
         cout<<s[i]<<c;
         i=j;
     }
+    return 0;
 }
